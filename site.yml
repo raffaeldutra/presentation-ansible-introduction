@@ -1,0 +1,11 @@
+---
+- hosts: apps
+  tasks:
+    - name: importando tasks configurações em comum
+      import_tasks: tasks/common/main.yml
+
+    - name: importando tasks para php-fpm
+      import_tasks: tasks/php-fpm/main.yml
+
+  roles:
+    - role: geerlingguy.mysql
