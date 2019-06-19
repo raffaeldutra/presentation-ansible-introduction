@@ -2,3 +2,4 @@
 roles
 *.retry
 ubuntu-bionic*
+.vagrant
