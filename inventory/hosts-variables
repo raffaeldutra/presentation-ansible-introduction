@@ -1,0 +1,6 @@
+[all:vars]
+ansible_become = True
+ansible_user = root
+
+[apps]
+
