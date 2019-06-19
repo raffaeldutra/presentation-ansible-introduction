@@ -1,6 +1,2 @@
-[all:vars]
-ansible_become = True
-ansible_user = root
-
-[apps]
-
+192.168.33.200
+192.168.33.201
