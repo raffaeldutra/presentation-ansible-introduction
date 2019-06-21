@@ -1,6 +1,12 @@
+[defaults]
+log_path = ~/example-company-ansible.log
+
+host_key_checking = False
+
 [all:vars]
 ansible_become = True
 ansible_user = root
 
-[apps]
-
+[clients]
+192.168.33.200
+192.168.33.201
