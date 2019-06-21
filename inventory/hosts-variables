@@ -1,12 +1,10 @@
 [defaults]
-log_path = ~/example-company-ansible.log
-
-host_key_checking = False
-
-[all:vars]
-ansible_become = True
-ansible_user = root
+host_key_checking=False
 
 [clients]
-192.168.33.200
-192.168.33.201
+192.168.33.200 ansible_ssh_private_key_file=.vagrant/machines/client-1/virtualbox/private_key
+192.168.33.201 ansible_ssh_private_key_file=.vagrant/machines/client-2/virtualbox/private_key
+
+[clients:vars]
+ansible_python_interpreter="/usr/bin/python3"
+ansible_user="vagrant"
