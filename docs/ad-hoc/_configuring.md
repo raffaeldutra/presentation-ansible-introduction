@@ -1,0 +1,1 @@
+## Ajustando arquivo de hosts com variáveis
