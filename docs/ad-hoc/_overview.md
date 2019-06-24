@@ -1,9 +1,12 @@
 ## Comandos para executar em modo ad-hoc
 
-Rodando o primeiro comando.
-É necessário passar algumas configurações, como:
+Um dos primeiros comandos que são utilizados ao iniciar com Ansible são os comandos _ad-hoc_.
 
-* módulo ping: `-m ping`
-* Usuário vagrant que está na Máquina virtual: `-u vagrant`
-* Chave privada da máquina do _Vagrant_.
-* Interpretador Python da máquina: `-e 'ansible_python_interpreter=/usr/bin/python3'`
+Comandos ad-hoc:
+
+* não são playbooks
+* Realizar ações “simples”
+* Não são reutilizáveis
+* Realizados via CLI (Command Line Interface)
+
+[Iniciando](beginning.md)
