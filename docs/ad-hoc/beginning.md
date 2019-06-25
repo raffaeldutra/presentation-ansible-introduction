@@ -18,6 +18,15 @@ $ ansible 192.168.33.200 \
 -e 'ansible_python_interpreter=/usr/bin/python3'
 ```
 
+Com a seguinte saída:
+
+```shell
+192.168.33.200 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+```
+
 Pingando a máquina 192.168.33.201.
  
 ```shell
@@ -28,4 +37,13 @@ $ ansible 192.168.33.201 \
 -e 'ansible_python_interpreter=/usr/bin/python3'
 ```
 
-[Configurando chaves](configuring-keys.md)
+Com a seguinte saída:
+
+```shell
+192.168.33.200 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+```
+
+[Configurando inventário e parâmetros](inventory.md)
