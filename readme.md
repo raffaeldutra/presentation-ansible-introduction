@@ -31,4 +31,4 @@ ansible-galaxy install -r requirements.yml
 ansible-playbook site.yml -i inventory/hosts  --ask-vault-pass
 ```
 
-[Comandos Ad-Hoc](ad-hoc/_overview.md)
+[Comandos Ad-Hoc](docs/ad-hoc/_overview.md)
