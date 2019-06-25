@@ -6,7 +6,6 @@ Rodando o módulo (opção `-m`) ping em todos os hosts
 $ ansible all \
 -m ping \
 -u vagrant \
--i inventory/hosts \
 -e 'ansible_python_interpreter=/usr/bin/python3'
 ```
 
@@ -30,7 +29,6 @@ Rodando o módulo (opção -m) ping em todos os hosts se tornando _root_ (`--bec
 $ ansible all \
 -m ping \
 -u vagrant \
--i inventory/hosts \
 --become \
 -e 'ansible_python_interpreter=/usr/bin/python3'
 ```
@@ -48,4 +46,4 @@ Com a seguinte saída:
 }
 ```
 
-[Utilizando o módulo file](file.md)
+[Utilizando o módulo file](remote-commands.md)
