@@ -4,9 +4,9 @@ Um dos primeiros comandos que são utilizados ao iniciar com Ansible são os com
 
 Comandos ad-hoc:
 
-* não são playbooks
-* Realizar ações “simples”
-* Não são reutilizáveis
-* Realizados via CLI (Command Line Interface)
+* Não são playbooks.
+* Realizar ações “simples”.
+* Não são reutilizáveis.
+* Realizados via CLI (Command Line Interface).
 
 [Iniciando](beginning.md)
