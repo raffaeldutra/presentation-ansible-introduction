@@ -3,7 +3,6 @@
 ```shell
 ansible all \
 -u vagrant \
--i inventory/hosts \
 -m shell \
 -a "hostname" \
 -e 'ansible_python_interpreter=/usr/bin/python3'
@@ -18,3 +17,5 @@ client-1
 192.168.33.201 | CHANGED | rc=0 >>
 client-2
 ```
+
+[Utilizando o módulo user](user.md)
