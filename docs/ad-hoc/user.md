@@ -1,5 +1,7 @@
 ## Utilizando o módulo user
 
+Para adicionar usuários, utilizamos o módulo `user`, mas precisamos nos tornar _root_ para realizar o comando e para tal utilizamos o parâmetro `--become`.
+
 ```shell
 $ ansible clients \
 -u vagrant \
@@ -10,3 +12,5 @@ shell=/bin/bash
 append=yes" \
 --become
 ```
+
+[Atualizando o arquivo hosts](inventory-variables.md)
