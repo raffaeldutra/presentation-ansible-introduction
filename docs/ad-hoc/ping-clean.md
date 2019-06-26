@@ -61,3 +61,5 @@ drwx------  2 root    root    4096 Jun 24 02:30 netplan_ngk0d5r7
 drwx------  2 vagrant vagrant 4096 Jun 24 02:30 netplan_z75pxeg5
 drwx------  3 root    root    4096 Jun 25 02:32 systemd-private-86e932571e4d4b65ad3000b8839fbe19-systemd-resolved.service-y5wc9K
 ```
+
+[Iniciando com Playbooks](docs/playbooks/_overview.md)
