@@ -26,3 +26,5 @@ PLAY RECAP *********************************************************************
 192.168.33.200             : ok=1    changed=1    unreachable=0    failed=0   
 192.168.33.201             : ok=1    changed=1    unreachable=0    failed=0   
 ```
+
+[Instando pacotes com o módulo apt](apt.md)
