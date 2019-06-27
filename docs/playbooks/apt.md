@@ -10,6 +10,7 @@ Para instalar vários pacotes de uma única vez, podemos utilizar o seguinte:
     packages:
       - ntop
       - net-tools
+      - nginx
     state: present
 ```
 
