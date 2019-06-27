@@ -2,9 +2,9 @@
 
 Para toda máquina que desejamos rodar comandos, precisamos passar chaves privadas, mas podemos setar essas chaves diretamente no arquivo de _hosts_ como parâmetros (chave=valor).
 
-Vamos criar um arquivo chamado `hosts-clients` com o conteúdo abaixo:
+Vamos criar um arquivo chamado `hosts` com o conteúdo abaixo:
 
-Crie o arquivo em `inventory/hosts-clients`:
+Crie o arquivo em `inventory/hosts`:
 
 ```shell
 192.168.33.200 ansible_ssh_private_key_file=../.vagrant/machines/client-1/virtualbox/private_key
