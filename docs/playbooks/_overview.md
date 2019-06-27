@@ -24,4 +24,4 @@ ansible_python_interpreter="/usr/bin/python3"
 ansible_user="vagrant"
 ```
 
-[Criando o primeiro playbook](first-playbook.yml)
+[Criando o primeiro playbook](first-playbook.md)
