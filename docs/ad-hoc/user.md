@@ -13,4 +13,4 @@ append=yes" \
 --become
 ```
 
-[Atualizando o arquivo hosts](inventory-variables.md)
+[Iniciando com Playbooks](docs/playbooks/_overview.md)
