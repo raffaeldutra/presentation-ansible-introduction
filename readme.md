@@ -5,9 +5,9 @@ Infraestrutura criada utilizando Ansible [https://www.ansible.com/](https://www.
 Para este tutorial usaremos a seguinte abordagem:
 
 * Criaremos 3 (três) diretórios:
-  * Código.
-  * Ad-hoc.
-  * Playbooks.
+  * ansible-introducao.
+  * ad-hoc.
+  * playbooks.
 
 Utilize o seguinte comando:
 
