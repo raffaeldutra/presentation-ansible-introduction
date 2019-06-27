@@ -11,4 +11,4 @@ append=yes" \
 --become
 ```
 
-[Iniciando com Playbooks](docs/playbooks/_overview.md)
+[Iniciando com Playbooks](playbooks/_overview.md)
