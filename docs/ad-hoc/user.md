@@ -4,8 +4,6 @@ Para adicionar usuários, utilizamos o módulo `user`, mas precisamos nos tornar
 
 ```shell
 $ ansible clients \
--u vagrant \
--i inventory/hosts-variables \
 -m user \
 -a "name=rafael
 shell=/bin/bash
@@ -13,4 +11,4 @@ append=yes" \
 --become
 ```
 
-[Iniciando com Playbooks](docs/playbooks/_overview.md)
+[Utilizando o módulo apt](apt.md)
