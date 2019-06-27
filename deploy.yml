@@ -1,5 +1,0 @@
----
-- hosts: apps
-  tasks:
-    - name: importando tasks para php
-      import_tasks: tasks/php-apps/main.yml
