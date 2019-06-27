@@ -11,10 +11,10 @@ Rodando o primeiro comando.
 Pingando a máquina 192.168.33.200.
  
 ```shell
-$ ansible 192.168.33.200 \
+$ ansible all -i 192.168.33.200, \
 -m ping \
 -u vagrant \
---private-key=.vagrant/machines/client-1/virtualbox/private_key \
+--private-key=../.vagrant/machines/client-1/virtualbox/private_key \
 -e 'ansible_python_interpreter=/usr/bin/python3'
 ```
 
@@ -30,10 +30,10 @@ Com a seguinte saída:
 Pingando a máquina 192.168.33.201.
  
 ```shell
-$ ansible 192.168.33.201 \
+$ ansible all -i 192.168.33.201, \
 -m ping \
 -u vagrant \
---private-key=.vagrant/machines/client-2/virtualbox/private_key \
+--private-key=../.vagrant/machines/client-2/virtualbox/private_key \
 -e 'ansible_python_interpreter=/usr/bin/python3'
 ```
 
