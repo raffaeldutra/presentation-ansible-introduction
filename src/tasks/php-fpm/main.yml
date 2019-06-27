@@ -1,0 +1,15 @@
+---
+- name: incluindo variáveis
+  include_vars:
+      dir: vars
+  vars:
+    possible_files:
+      - "{{ ansible_distribution }}.yaml"
+      - "{{ ansible_os_family }}.yaml"
+
+- name: verificando se php-fpm está instalado
+  apt:
+    name: "{{ php_fpm_package }}"
+    state: "present"
+    update_cache: yes
+  when: ansible_os_family == 'Debian'
