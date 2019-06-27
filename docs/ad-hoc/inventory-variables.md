@@ -1,6 +1,6 @@
 ## Ajustando arquivo de hosts com variáveis
 
-Vamos atualizar o arquivo `hosts-clients` com o conteúdo abaixo.
+Vamos atualizar o arquivo `hosts` com o conteúdo abaixo.
 
 A ideia aqui é utilizarmos grupos para chamar máquinas de um mesmo contexto. Máquinas de um mesmo contexto podem conter variáveis repetidads e por isso utilizamos o conceito de `grupo:vars`.
 
