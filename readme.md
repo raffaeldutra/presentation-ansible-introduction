@@ -27,5 +27,11 @@ Levante os servidores com o comando:
 cd ansible-introducao && vagrant up
 ```
 
+Instale Ansible em sua máquina:
+
+```shell
+curl -fsSL https://raw.githubusercontent.com/raffaeldutra/presentation-ansible-introduction/master/installation.sh | sh;
+```
+
 * [Comandos Ad-Hoc](docs/ad-hoc/_overview.md)
 * [Playbooks](docs/playbooks/_overview.md)
