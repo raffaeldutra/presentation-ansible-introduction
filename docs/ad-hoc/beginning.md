@@ -40,7 +40,7 @@ $ ansible all -i 192.168.33.201, \
 Com a seguinte saída:
 
 ```shell
-192.168.33.200 | SUCCESS => {
+192.168.33.201 | SUCCESS => {
     "changed": false, 
     "ping": "pong"
 }
