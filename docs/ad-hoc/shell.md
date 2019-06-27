@@ -1,7 +1,7 @@
 ### Utilizando módulo shell
 
 ```shell
-ansible all \
+$ ansible all \
 -u vagrant \
 -m shell \
 -a "hostname" \
@@ -18,4 +18,4 @@ client-1
 client-2
 ```
 
-[Utilizando o módulo user](user.md)
+[Atualizando o inventário de hosts](inventory-variables.md)
