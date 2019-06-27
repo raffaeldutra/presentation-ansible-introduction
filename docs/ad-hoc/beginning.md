@@ -5,7 +5,7 @@ Rodando o primeiro comando.
 
 * módulo ping: `-m ping`
 * Usuário vagrant que está na Máquina virtual: `-u vagrant`
-* Chave privada da máquina do _Vagrant_: ``
+* Chave privada da máquina do _Vagrant_: `--private-key=.vagrant/machines/client-1/virtualbox/private_key`. Aqui neste caso estamos usando a chave da  máquina _client-1_
 * Interpretador Python da máquina: `-e 'ansible_python_interpreter=/usr/bin/python3'`
 
 Pingando a máquina 192.168.33.200.
