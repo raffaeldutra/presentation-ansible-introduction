@@ -12,7 +12,7 @@ Para este tutorial usaremos a seguinte abordagem:
 Utilize o seguinte comando:
 
 ```shell
-mkdir -p ansible-introducao/{ad-hoc,playbooks}
+mkdir -p ansible-introducao/{ad-hoc/inventory,playbooks/inventory}
 ```
 
 Copiaremos o arquivo `Vagrantfile` com o comando (para quem usa Linux ou Mac):
@@ -31,6 +31,12 @@ Instale Ansible em sua máquina:
 
 ```shell
 curl -fsSL https://raw.githubusercontent.com/raffaeldutra/presentation-ansible-introduction/master/installation.sh | sh;
+```
+
+Entre no diretório `ad-hoc`:
+
+```shell
+cd ansible-introducao/ad-hoc
 ```
 
 * [Comandos Ad-Hoc](docs/ad-hoc/_overview.md)
