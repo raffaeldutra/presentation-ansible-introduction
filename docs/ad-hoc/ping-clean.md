@@ -4,7 +4,7 @@ Rodando o módulo (opção `-m`) ping em todos os hosts
 
 ```shell
 $ ansible clients \
--m ping \
+-m ping
 ```
 
 Com a seguinte saída:
