@@ -31,4 +31,4 @@ PLAY RECAP *********************************************************************
 192.168.33.201             : ok=2    changed=0    unreachable=0    failed=0   
 ```
 
-[Criando o segundo playbook](second-playbook.yml)
+[Criando o segundo playbook](second-playbook.md)
