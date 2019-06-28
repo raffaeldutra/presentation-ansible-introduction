@@ -46,4 +46,4 @@ Com a seguinte saída:
 }
 ```
 
-[Utilizando o módulo file](file.md)
+[Simples comandos remotos](remote-commands.md)
