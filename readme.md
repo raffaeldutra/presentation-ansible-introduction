@@ -36,7 +36,7 @@ curl -fsSL https://raw.githubusercontent.com/raffaeldutra/presentation-ansible-i
 Entre no diretório `ad-hoc`:
 
 ```shell
-cd ansible-introducao/ad-hoc
+cd ad-hoc
 ```
 
 * [Comandos Ad-Hoc](docs/ad-hoc/_overview.md)
