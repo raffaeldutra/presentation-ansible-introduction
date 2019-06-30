@@ -7,7 +7,7 @@ $ ansible clients \
 -m apt \
 -a \
 "name=curl \
- state=present"
+ state=present" \
  --become
  ```
 
