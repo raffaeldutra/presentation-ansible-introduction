@@ -8,6 +8,7 @@ $ ansible clients \
 -a \
 "name=curl \
  state=present"
+ --become
  ```
 
 [Utilizando o módulo user](user.md)
