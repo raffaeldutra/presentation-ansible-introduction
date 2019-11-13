@@ -39,5 +39,5 @@ Entre no diretório `ad-hoc`:
 cd ad-hoc
 ```
 
-* [Comandos Ad-Hoc](docs/ad-hoc/_overview.md)
-* [Playbooks](docs/playbooks/_overview.md)
+* [Comandos Ad-Hoc](docs/local/ad-hoc/_overview.md)
+* [Playbooks](docs/local/playbooks/_overview.md)
